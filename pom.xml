@@ -38,7 +38,9 @@
                 <sonar.language>Java</sonar.language>
                 <sonar.projectKey>Demo12</sonar.projectKey>
                 <sonar.projectName>ttksdemo12</sonar.projectName>
-     </properties>       
+     </properties>   
+        </profile>
+    </profiles>
      <build>
         <plugins>
             <plugin>
