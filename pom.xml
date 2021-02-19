@@ -33,12 +33,12 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-            <properties>
+     <properties>
                 <sonar.host.url>http://3.236.119.211:9000</sonar.host.url>
                 <sonar.language>Java</sonar.language>
                 <sonar.projectKey>Demo12</sonar.projectKey>
                 <sonar.projectName>ttksdemo12</sonar.projectName>
-            </properties>       
+     </properties>       
      <build>
         <plugins>
             <plugin>
