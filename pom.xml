@@ -20,10 +20,26 @@
                <artifactId>joda-time</artifactId>
                <version>2.2</version>
            </dependency>
+          <dependency>
+               <groupId>org.sonarsource.scanner.maven</groupId>
+               <artifactId>sonar-maven-plugin</artifactId>
+               <version>3.8</version>
+           </dependency>
        </dependencies>
        <!-- end::joda[] -->
-       
-    <build>
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <sonar.host.url>http://3.236.119.211:9000</sonar.host.url>
+                <sonar.language>Java</sonar.language>
+                <sonar.projectKey>Demo12</sonar.projectKey>
+                <sonar.projectName>ttksdemo12</sonar.projectName>
+            </properties>       
+     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
