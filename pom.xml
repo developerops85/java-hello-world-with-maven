@@ -34,7 +34,6 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
      <properties>
-                <sonar.organization>default-organization</sonar.organization>
                 <sonar.language>Java</sonar.language>
                 <sonar.projectKey>Demo_12</sonar.projectKey>
                 <sonar.projectName>ttksdemo12</sonar.projectName>
