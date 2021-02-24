@@ -5,7 +5,7 @@
     <groupId>org.springframework</groupId>
     <artifactId>jb-hello-world-maven</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
 
     <!-- tag::joda[] -->
      <properties>
@@ -37,7 +37,7 @@
                 <sonar.host.url>http://ec2-35-175-120-97.compute-1.amazonaws.com:9000</sonar.host.url>
                 <sonar.language>Java</sonar.language>
                 <sonar.projectKey>Demo_12</sonar.projectKey>
-                <sonar.projectName>ttksdemo12</sonar.projectName>
+                <sonar.projectName>demo12</sonar.projectName>
      </properties>   
         </profile>
     </profiles>
