@@ -6,7 +6,8 @@
     <artifactId>jb-hello-world-maven</artifactId>
     <packaging>jar</packaging>
     <version>0.2.1</version>
-
+    <name>user-preferenes</name>
+   
     <!-- tag::joda[] -->
      <properties>
            <java.version>1.8</java.version>
