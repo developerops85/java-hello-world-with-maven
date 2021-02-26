@@ -34,7 +34,6 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
      <properties>
-                <sonar.host.url>http://ec2-35-175-120-97.compute-1.amazonaws.com:9000</sonar.host.url>
                 <sonar.language>Java</sonar.language>
                 <sonar.projectKey>Demo_12</sonar.projectKey>
                 <sonar.projectName>demo12</sonar.projectName>
